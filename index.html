@@ -9,8 +9,23 @@ $(document).ready(function(){
         if(score >= 80){
           $("p").html("A");
         }
-        else if(score >= 50){
+        else if(score >= 75){
+          $("p").html("B+");
+        }
+        else if(score >= 70){
           $("p").html("B");
+        }
+        else if(score >= 65){
+          $("p").html("C+");
+        }
+        else if(score >= 60){
+          $("p").html("C");
+        }
+        else if(score >= 55){
+          $("p").html("D+");
+        }
+        else if(score >= 50){
+          $("p").html("D");
         }
         else{
           $("p").html("F");
