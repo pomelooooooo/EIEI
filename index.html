@@ -8,7 +8,14 @@ $(document).ready(function(){
     	let score = $("#score").val();
         if(score >= 80){
           $("p").html("A");
-        }else{
+        }
+        else if(score >= 75){
+          $("p").html("B+");
+        }
+        else if(score >= 50){
+          $("p").html("B");
+        }
+        else{
           $("p").html("F");
         }
       
